@@ -1,0 +1,76 @@
+h1,h2,h3,h4,h5,h6,p,a,li.p1 {
+    margin: 0px;
+}
+
+.child {
+    width: 248px;
+    height: 380px;
+    color: black;
+    background: white;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.parent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 700px;
+    width: 900px;
+    justify-content: space-between;
+    padding: 20px 150px 0px;
+
+}
+
+.car {
+    border: 1px solid black;
+    width: 360px;
+    border-radius: 10px;
+}
+
+.gambar img {
+    width: 100%;    
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.gambar {
+    position: relative;
+}
+
+.tulisan {
+    padding: 16px;
+}
+
+.h1 {
+    padding: 0px 0px 8px;
+    font: 16px Metropolis;
+    color: #032954; 
+}
+
+.p1 {
+
+    font: 14px Metropolis;
+    color: #818181;  
+    padding: 0px 0px 70px;
+}
+
+.p2 {
+    color: #818181;
+    font: 14px Metropolis;
+}
+
+.textcon p  {
+    color: white;
+
+}
+
+.textcon {
+    background-color: orange;
+    padding: 4px 16px 4px 8px;
+    position: absolute;
+    top: 8px;
+    border-bottom-right-radius: 10px;
+}
+
+
